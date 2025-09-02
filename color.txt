@@ -1,0 +1,8 @@
+| **Use**                            | **Hex Code** | **Notes**                                  |
+| ---------------------------------- | ------------ | ------------------------------------------ |
+| **Primary Blue** (Main Accent)     | `#007BFF`    | For buttons, headings, and key highlights. |
+| **Dark Blue** (Text/Icons)         | `#004C99`    | For strong emphasis, headings, and icons.  |
+| **Light Blue** (Background Accent) | `#E6F2FF`    | For section backgrounds or hover states.   |
+| **Soft Blue** (Hover/Secondary)    | `#66B2FF`    | For hover effects or secondary buttons.    |
+| **Neutral Gray** (Text/Dividers)   | `#6C757D`    | For subtle text and separators.            |
+| **White** (Base)                   | `#FFFFFF`    | For clean backgrounds.                     |

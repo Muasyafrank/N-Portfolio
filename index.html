@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRANCIS MUASYA - WEB DEVELOPER</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"  rel="stylesheet"/>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h2>Frank Muasya</h2>
+        </div>
+        <div class="" onclick="toggleMenu(this)">
+            <i class="ri-menu-line hamburger"></i>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Skills</li>
+                <li>Resume</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="hero">
+            <div class="intro">
+                <h2>Hi,I`m Frank Muasya</h2>
+                <p>Learning,building and growing in Web development.</p>
+                <button class="btn">View My Work</button>
+            </div>
+            <div class="hero-img">
+                <img src="profile.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about-section">
+        <h3>About Me</h3>
+       <div class="about-me">
+        <p>
+            Hello! I`m a junior web developer passionate about 
+            crafting clean,functional and user-friendly websites.I`m continously
+            enhancing my skills,with a curent focus on React and advanced Javascript.
+            Outside development,I enjoy hikng and cycling.
+
+        </p>
+       </div>
+    </div>
+    <h3 class="project-heading">My Projects</h3>
+    <div class="container">  
+              
+        <div class="projects">
+            
+            
+            <div class="project">
+                <img src="projects.jpeg" alt="">
+                <div class="project-desc">
+                    <h5 class="p-name">Weather App</h5>
+                    <p class="p-desc">Weather Application using OpenWeather API and Javascript.</p>
+                    <div class="languages">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="demo">Live Demo</button>  
+                        <button class="github">Github Repo</button>                      
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="projects.jpeg" alt="">
+                <div class="project-desc">
+                    <h5 class="p-name">Weather App</h5>
+                    <p class="p-desc">Weather Application using OpenWeather API and Javascript.</p>
+                    <div class="languages">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="demo">Live Demo</button>  
+                        <button class="github">Github Repo</button>                      
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="projects.jpeg" alt="">
+                <div class="project-desc">
+                    <h5 class="p-name">Weather App</h5>
+                    <p class="p-desc">Weather Application using OpenWeather API and Javascript.</p>
+                    <div class="languages">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="demo">Live Demo</button>  
+                        <button class="github">Github Repo</button>                      
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="projects.jpeg" alt="">
+                <div class="project-desc">
+                    <h5 class="p-name">Weather App</h5>
+                    <p class="p-desc">Weather Application using OpenWeather API and Javascript.</p>
+                    <div class="languages">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                    </div>
+                    <div class="project-actions">
+                        <button class="demo">Live Demo</button>  
+                        <button class="github">Github Repo</button>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    
+    <script>
+        function toggleMenu(element){
+            const navbar = document.querySelector(`.navbar`);
+            navbar.classList.toggle('active');
+            element.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
